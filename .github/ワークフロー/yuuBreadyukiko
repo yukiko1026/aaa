@@ -20,7 +20,7 @@ System.out.println("買い物スタート！");
 Random rnd =new Random();
 int breadPrice =rnd.nextInt(201)+100;//ランダムで決まるパンの価格(100円から300円を指定する)
 /*rnd.nextInt(201)は0～200のランダムな値を表示*/
-//System.out.println("後で消す確認用のパン価格"+breadPrice+"円");
+System.out.println("パン価格"+breadPrice+"円");
 
 int total =0;//買える数をカウントする変数
 int money =1000;//所持金1000円
